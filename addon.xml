@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.test.hello" name="Hello World" version="0.0.1" provider-name="Gollum Groto">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+
+
+    </requires>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>audio image executable game video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Test</summary>
+        <description lang="en_GB"></description>
+        <language></language>
+        <platform>linux osx</platform>
+        <license>MIT</license>
+        <forum></forum>
+        <website></website>
+        <email>aditg@iitk.ac.in</email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
